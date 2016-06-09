@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199e32a2-3dbd-4a9c-90e6-41cbebbc22ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj_do_something/controller/books.clj" afterPath="$PROJECT_DIR$/src/clj_do_something/controller/books.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj_do_something/model/books.clj" afterPath="$PROJECT_DIR$/src/clj_do_something/model/books.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj_do_something/model/migrate.clj" afterPath="$PROJECT_DIR$/src/clj_do_something/model/migrate.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj_do_something/view/books.clj" afterPath="$PROJECT_DIR$/src/clj_do_something/view/books.clj" />
     </list>
     <ignored path="clj-do-something.iws" />
@@ -44,18 +38,18 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clj_do_something/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="books.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clj_do_something/model/books.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,17 +59,17 @@
         <entry file="file://$PROJECT_DIR$/src/clj_do_something/controller/books.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="books.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clj_do_something/view/books.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -110,10 +104,10 @@
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/clj_do_something/core.clj" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1a59e5b0-9ebd-4960-8250-3d6fa756bdc2/console.sql" />
-        <option value="$PROJECT_DIR$/src/clj_do_something/model/books.clj" />
         <option value="$PROJECT_DIR$/src/clj_do_something/model/migrate.clj" />
-        <option value="$PROJECT_DIR$/src/clj_do_something/view/books.clj" />
         <option value="$PROJECT_DIR$/src/clj_do_something/controller/books.clj" />
+        <option value="$PROJECT_DIR$/src/clj_do_something/view/books.clj" />
+        <option value="$PROJECT_DIR$/src/clj_do_something/model/books.clj" />
       </list>
     </option>
   </component>
@@ -274,7 +268,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
-  <component name="ReplState" timestamp="1465500112622">{:repl-history {:ide [], :local [&quot;(def book {:title \&quot;Ulysses\&quot; :author \&quot;Joyce\&quot;})&quot; &quot;book&quot; &quot;h (:title book)&quot; &quot;h (:title :author book)&quot; &quot;(book-form)&quot; &quot;(show-books)&quot; &quot;(index)&quot; &quot;(index (book))&quot; &quot;(show-books book)&quot; &quot;(sql/create-table-ddl :books [[:id :serial \&quot;PRIMARY KEY\&quot;] [:title :varchar \&quot;NOT NULL\&quot;]])&quot; &quot;clojure.java.jdbc/create-table-ddl :books [[:id :serial \&quot;PRIMARY KEY\&quot;][:title :varchar \&quot;NOT NULL\&quot;]])&quot; &quot;(clojure.java.jdbc/create-table-ddl :books [[:id :serial \&quot;PRIMARY KEY\&quot;][:title :varchar \&quot;NOT NULL\&quot;]])&quot; &quot;(migrate)&quot; &quot;(add-book)&quot; &quot;(get-all)&quot; &quot;(add-book {:title \&quot;Dubliners\&quot;})&quot; &quot;(create Ulysses\n        \n        )&quot; &quot;(create \&quot;Ulysses\&quot;)&quot; &quot;(into [] (sql/query url \&quot;select * from books order by id desc\&quot;))&quot; &quot;(-main)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1465501789422">{:repl-history {:ide [], :local [&quot;(def book {:title \&quot;Ulysses\&quot; :author \&quot;Joyce\&quot;})&quot; &quot;book&quot; &quot;h (:title book)&quot; &quot;h (:title :author book)&quot; &quot;(book-form)&quot; &quot;(show-books)&quot; &quot;(index)&quot; &quot;(index (book))&quot; &quot;(show-books book)&quot; &quot;(sql/create-table-ddl :books [[:id :serial \&quot;PRIMARY KEY\&quot;] [:title :varchar \&quot;NOT NULL\&quot;]])&quot; &quot;clojure.java.jdbc/create-table-ddl :books [[:id :serial \&quot;PRIMARY KEY\&quot;][:title :varchar \&quot;NOT NULL\&quot;]])&quot; &quot;(clojure.java.jdbc/create-table-ddl :books [[:id :serial \&quot;PRIMARY KEY\&quot;][:title :varchar \&quot;NOT NULL\&quot;]])&quot; &quot;(migrate)&quot; &quot;(add-book)&quot; &quot;(get-all)&quot; &quot;(add-book {:title \&quot;Dubliners\&quot;})&quot; &quot;(create Ulysses\n        \n        )&quot; &quot;(create \&quot;Ulysses\&quot;)&quot; &quot;(into [] (sql/query url \&quot;select * from books order by id desc\&quot;))&quot; &quot;(-main)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL for clj-do-something">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -728,12 +722,12 @@
       <workItem from="1465331298053" duration="328000" />
       <workItem from="1465349927287" duration="1074000" />
       <workItem from="1465353039938" duration="944000" />
-      <workItem from="1465493999802" duration="4092000" />
+      <workItem from="1465493999802" duration="5743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20948000" />
+    <option name="totallyTimeSpent" value="22599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1217,34 +1211,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj_do_something/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj_do_something/model/books.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_do_something/controller/books.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj_do_something/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_do_something/view/books.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj_do_something/model/books.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

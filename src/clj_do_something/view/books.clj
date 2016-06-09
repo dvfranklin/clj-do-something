@@ -23,7 +23,11 @@
   [:div
    [:ol
    (map
-     (fn [book] [:li  (h/html (:title book) " by " (:author book) ", Genre: " (:genre book))])
+     (fn [book] [:li  (h/html (:title book) " by " (:author book) ", Genre: " (:genre book)
+                              [:form {:action "/delete" :method "POST"}
+                               (anti-forgery/anti-forgery-field)
+                               [:input {:type "hidden" :name "id" :value (:id book)}]
+                               [:button {:type "submit"} "Delete"]])])
      books)]])
 
 (defn index [books]

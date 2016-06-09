@@ -12,8 +12,13 @@
   (model/add-book book)
   (ring/redirect "/"))
 
+(defn delete [id]
+  (model/delete-book id)
+  (ring/redirect "/"))
+
 (defroutes routes
            (GET "/" [] (index))
-           (POST "/" [title author genre] (create {:title title :author author :genre genre})))
+           (POST "/" [title author genre] (create {:title title :author author :genre genre}))
+           (POST "/delete" [id] (delete id)))
 
 
