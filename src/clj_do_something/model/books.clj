@@ -7,4 +7,4 @@
   (into [] (sql/query url "select * from books order by id desc")))
 
 (defn add-book [book]
-  (sql/insert! url :books [:title] [book]))
+  (sql/insert! url :books book))

@@ -14,6 +14,6 @@
 
 (defroutes routes
            (GET "/" [] (index))
-           (POST "/" [book] (create book)))
+           (POST "/" [title author genre] (create {:title title :author author :genre genre})))
 
 

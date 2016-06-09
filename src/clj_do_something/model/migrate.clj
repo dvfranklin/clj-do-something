@@ -15,4 +15,6 @@
                         (sql/create-table-ddl
                           :books
                           [[:id :serial "PRIMARY KEY"]
-                           [:title :varchar "NOT NULL"]]))))
+                           [:title :varchar "NOT NULL"]
+                           [:author :varchar "NOT NULL"]
+                           [:genre :varchar "NOT NULL"]]))))
